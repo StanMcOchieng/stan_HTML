@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+</head>
+<style>
+  h2{
+    color: indigo;
+    background-color: #b3d4fc;
+    font-family: Mandali;
+    font-size: 20px;
+  }
+  label{
+    color: #222222;
+    background-color: #8B8BB3;
+    font-size: 18px;
+    font-family: FreeSans;
+    padding: 15px;
+  }
+  input{
+    color: green;
+    background-color: #8B8BB3;
+    font-size: 15px;
+    padding: 15px;
+    font-family: KacstDigital;
+  }
+</style>
+<body>
+<h2>Student Registration Form</h2>
+<form action="Intro.html" method="get">
+  <label for="fname">Full Name</label>
+  <input type="text"id="fname"PLACEHOLDER="Enter Name"><br>
+  <label for="gender">Gender</label>
+  <input type="text"id="gender"placeholder="Input Gender"><br>
+  <label for="phone">Contact</label>
+  <input type="text"id="phone"placeholder="Input Phone number"><br>
+  <label for="dob">Date of Birth</label>
+  <input type="date"id="dob"><br>
+  <label for="male">Male</label>
+  <input type="radio"id="male" name="gender">
+  <label for="female">Female</label>
+  <input type="radio"id="female" name="gender">
+  <label for="password">Password</label>
+  <input type="text"id="password"placeholder="Input password"><br>
+
+   <label for="Course">Course Taken</label>
+   <select name="course" id="course">
+   <option value="Javascript">Javascript</option>
+   <option value="Python">Python</option>
+   <option value="HTML & CSS">HTML & CSS</option>
+   <option value="Android">Android</option>
+   <option value="C++">C++</option>
+   <option value="Kotlin">Kotlin</option>
+   <option value="Bootstrap">Bootstrap</option>
+     </select><br>
+  <label for="image">Upload image</label>
+  <input type="file"id="image"><br>
+   <input type="submit"value="Register!!!">
+
+
+
+
+
+</form>
+<button type="button" onclick="alert('Safari Lab Morning Class')">Proceed</button>
+
+</body>
+</html>

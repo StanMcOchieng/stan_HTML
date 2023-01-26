@@ -1,0 +1,42 @@
+p{
+  color: turquoise;
+  font-family: "Century Schoolbook L";
+  font-size: 20px;
+  background: gray;
+
+}
+h1{
+  text-align: center;
+  font-family: Chilanka;
+  font-size: 20px;
+}
+button {
+  color: red;
+  padding: 15px;
+  text-align: center;
+  font-family: Dhurjati;
+  font-size: 15px;
+  background: black;
+  border: green;
+  margin: 20px;
+}
+td,th{
+  border: 2px dotted blue;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "DejaVu Serif";
+  font-style: italic;
+  margin: 20px;
+
+}
+li{
+  font-style: normal;
+  font-family: "Fira Code";
+  font-size: 25px;
+  color: green;
+}
+body{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/58/AcetoFive.JPG");
+}
